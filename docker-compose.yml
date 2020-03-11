@@ -1,6 +1,7 @@
 version: '3'
 services:
   nginx:
+    container_name: desgin_nginx
     image: nginx:latest
     ports:
       - 8080:80
@@ -11,6 +12,7 @@ services:
       - php
 
   php:
+    container_name: desgin_php
     build: ./php
     volumes:
       - ./sandbox:/var/www/html
