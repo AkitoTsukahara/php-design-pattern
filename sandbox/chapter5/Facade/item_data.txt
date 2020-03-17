@@ -1,0 +1,4 @@
+id        name      price
+1         T-shirt   1500
+2         game      2000
+3         cookie    800
